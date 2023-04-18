@@ -1,0 +1,50 @@
+main form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+    width: 500px;
+    padding: 5px;
+  }
+  
+  main form input {
+    border: 2px solid #8a8a8a;
+    width: 95%;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  label {
+    color: #8a8a8a;
+    font-size: 18px;
+    padding: 5px;
+  }
+  
+  button {
+    border: none;
+    background-color: transparent;
+    font-size: medium;
+    cursor: pointer;;
+  }
+  
+  button:hover {
+    background-color: transparent;
+    color: #009688;
+  }
+  
+  table {
+    margin-left: 55px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 95%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  
