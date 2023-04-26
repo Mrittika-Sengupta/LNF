@@ -18,12 +18,6 @@
                         unset($_SESSION['add']);
                     }
 
-                    if(isset($_SESSION['delete']))
-                    {
-                        echo $_SESSION['delete'];
-                        unset($_SESSION['delete']);
-                    }
-
                     if(isset($_SESSION['upload']))
                     {
                         echo $_SESSION['upload'];

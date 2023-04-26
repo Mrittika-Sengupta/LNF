@@ -99,7 +99,7 @@ if(isset($_POST['submit']))
   <tr>
   <td>   <label for= "username"> Username: </label> </td>
      
-  <td> <input type="text" name="username" placeholder="Username" required > </td>
+  <td> <input type="text" name="username" placeholder="Username" value='<?php echo $_SESSION['username']; ?>'required > </td>
         
     </tr>
 
@@ -118,10 +118,6 @@ if(isset($_POST['submit']))
         </td>
     </tr>
      
-   
-
-
-
     <tr>
         <td><label for= "image" > Select Image: </label></td>
         <td>
