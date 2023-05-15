@@ -18,115 +18,123 @@ main {
   max-width: 1000px;
 }
 
-
-
 .header {
   width: 100%;
   text-align: center;
 }
 
-.main-content h1 {
-  font-size: 20px;
-  text-align: center;
-  margin-left:-989px;
-}
-
-main .header h2{
-  color: #000;
-}
-
-.wrapper{
+.wrapper {
   padding: 1%;
   width: 700%;
   text-align: center;
-  
-
 }
 
-.text-center{
+.text-center {
   text-align: center;
 }
-.clearfix{
+
+.clearfix {
   float: none;
   clear: both;
 }
 
-.tbl-full{
+.tbl-full {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
-  margin-left:-100px;
+  margin-left: -150px;
+  margin-top: 10px;
   text-align: center;
-
 }
-.tbl-full tr:nth-child(even){background-color: #f2f2f2;}
 
-.tbl-full tr:hover {background-color: #ddd;}
+.tbl-full tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
 
+.tbl-full tr:hover {
+  background-color: #ddd;
+}
 
-
-table tr th{
+table tr th {
   border: 1px solid #ddd;
   padding: 8px;
   text-align: center;
-
 }
 
 .tbl-full th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   color: white;
   text-align: center;
 }
 
-.btn-primary{
+.btn-primary {
   background-color: #00a153;
   padding: 1%;
   color: white;
   text-decoration: none;
   font-weight: bold;
-  
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
   background-color: #757deb;
 }
 
-.btn-secondary{
+.btn-secondary {
   background-color: #7bed9f;
   padding: 1%;
   color: black;
   text-decoration: none;
   font-weight: bold;
 }
-.btn-secondary:hover{
+
+.btn-secondary:hover {
   background-color: #2ed573;
 }
 
-.btn-danger{
+.btn-danger {
   background-color: #ff6b81;
   padding: 1%;
   color: white;
   text-decoration: none;
   font-weight: bold;
 }
-.btn-danger:hover{
+
+.btn-danger:hover {
   background-color: #ff4757;
 }
 
-.success{
+.success {
   color: #2ed573;
 }
-.error{
+
+.error {
   color: #ff4757;
 }
 
+ .container   {
+  display: inline;
+  padding-left: 20px; 
+  padding-right: 30px;
+ 
+ }
 
+ .profile h3 {
+  display: inline;
+  padding-left: 20px; 
+  padding-right: 30px;
 
-
-
+ }
+ .message{
   
-
-
-
+    width: 100%;
+    border-radius: 5px;
+    padding:1px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 20px;
+ }
+ 

@@ -132,8 +132,7 @@ button:hover {
 main{
   color: #fff;
   text-align: center;
-
-  top: 35%;
+  padding: 25%;
   width: 100%;
 }
 

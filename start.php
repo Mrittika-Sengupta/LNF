@@ -18,7 +18,7 @@
 <body>
   <div class="container">
     <nav>
-      <a href="index.html"
+      <a href="index.php"
         ><img src="logo.png" alt="lost and found" class="logo"
       /></a>
       <ul>
@@ -40,9 +40,8 @@
       <a href="login.php">
         <button>General User</button>
     </a>
-    <form action="login.php" method="post"><button>Admin</button> </form>
-    <!-- <a href="admin/login.php"> -->
-      
+    <a href="admin/login.php">
+      <button>Admin</button>
   </a>
     </main>
     </div>

@@ -99,7 +99,7 @@ if(isset($_POST['submit']))
   <tr>
   <td>   <label for= "username"> Username: </label> </td>
      
-  <td> <input type="text" name="username" placeholder="Username" value='<?php echo $_SESSION['username']; ?>'required > </td>
+  <td> <input type="text" name="username" placeholder="Username" value='<?php echo $fetch['username']; ?>'required > </td>
         
     </tr>
 

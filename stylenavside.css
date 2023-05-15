@@ -24,7 +24,6 @@
   height: 90px;
   padding: 1rem 0rem 1rem 2rem;
   color: #fff;
-  
 }
 
 .sidebar-brand span {
@@ -75,49 +74,44 @@ header {
   justify-content: space-between;
   padding: 1rem 1.5rem;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
-  
 }
 
-.user ul li{
+.user ul li {
   position: relative;
   display: inline-block;
   margin: 0 20px;
   position: relative;
-  font-size: 22px;
+  font-size: 20px;
   right: 20px;
-}
-
-.user a i{
   color: #000;
 }
 
-.user a i:hover, .search i:hover {
+.user a i:hover,
+.search button i:hover {
   color: #009688;
-  font-size: 25px;
 }
 
-.search{
+.search {
   position: relative;
   height: 40px;
   max-width: 600px;
   width: 100%;
   border: 1px solid #8a8a8a;
   border-radius: 30px;
-
 }
 
-.search i {
+.search button{
+  color: #fff;
   padding: 11px 10px;
-  font-size: 16px;
+  font-size: 20px;
+  cursor: pointer;
+  
 }
 
 .search input {
   border: none;
   outline: none;
-
 }
-
-
 
 .sidebar-menu a span:first-child {
   font-size: 1.5 rem;

@@ -23,16 +23,16 @@ button {
   width: 200px;
   padding: 7px;
   text-align: center;
-  font-size: medium;
+   font-size: 20px;
   border-radius: 20px;
   border: 2.5px solid #f1fffe;
-  color: #fff;
+  color: #dcdcdc;
   background: #009688;
 }
 
 button:hover {
   background-color: transparent;
-  color: #ffffff;
+  color: #078243;
 }
 
 table {
